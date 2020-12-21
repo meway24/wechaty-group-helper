@@ -1,0 +1,35 @@
+{
+  "name": "wechaty-group-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env WECHATY_LOG=verbose node index.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "dotnet": "^1.1.4",
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "^0.51.10",
+    "wechaty-plugin-contrib": "^0.14.15"
+  },
+  "devDependencies": {
+    "@chatie/eslint-config": "^0.12.1",
+    "@chatie/git-scripts": "^0.6.1",
+    "@chatie/tsconfig": "^0.10.1",
+    "check-node-version": "^4.0.3",
+    "connect": "^3.7.0",
+    "is-pr": "^1.1.0",
+    "marked": "^1.1.0",
+    "nodemon": "^2.0.3",
+    "wechaty-puppet-mock": "^0.28.1",
+    "wechaty-puppet-padplus": "^0.7.21",
+    "wechaty-puppet-puppeteer": "^0.23.1",
+    "wechaty-puppet-wechat4u": "^0.16.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
